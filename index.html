@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Shyam Narayan Singh Ram Narayan Singh Degree College – Permanently Affiliated to B.R.A. Bihar University, Muzaffarpur. Offering BA, BSc, BCom programs in East Champaran, Bihar." />
+  <meta name="keywords" content="SNSRNS Degree College, Bihar, East Champaran, BRABU, BA BSc BCom, Kesariya, Kalyanpur" />
+  <meta name="author" content="SNSRNS Degree College" />
+  <meta property="og:title" content="SNSRNS Degree College – East Champaran, Bihar" />
+  <meta property="og:description" content="Quality higher education in East Champaran. Affiliated to BRABU Muzaffarpur." />
+  <meta property="og:type" content="website" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <title>SNSRNS Degree College | East Champaran, Bihar</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            saffron: { DEFAULT: '#FF6B1A', light: '#FF8C42', dark: '#E55A00' },
+            forest:  { DEFAULT: '#1A6B3C', light: '#2D8A52', dark: '#125230' },
+            cream:   { DEFAULT: '#FDF8F0', dark: '#F5EDD8' },
+            gold:    { DEFAULT: '#D4A017', light: '#E8BA2A' },
+          },
+          fontFamily: {
+            display: ['"Playfair Display"', 'serif'],
+            body:    ['"Noto Sans"', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* ===== GLOBAL ===== */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Noto Sans', sans-serif; background: #FDF8F0; color: #1a1a1a; overflow-x: hidden; }
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #f1f1f1; }
+    ::-webkit-scrollbar-thumb { background: #1A6B3C; border-radius: 3px; }
+
+    /* ===== NAVBAR ===== */
+    #navbar { transition: background .4s ease, box-shadow .4s ease, padding .3s ease; }
+    #navbar.scrolled { background: rgba(26,107,60,.97) !important; box-shadow: 0 4px 24px rgba(0,0,0,.18); padding-top:.5rem; padding-bottom:.5rem; }
+    .nav-link { position:relative; font-weight:500; font-size:.875rem; letter-spacing:.03em; color:#fff; transition:color .2s; text-decoration:none; }
+    .nav-link::after { content:''; position:absolute; bottom:-3px; left:0; width:0; height:2px; background:#FF6B1A; transition:width .3s ease; }
+    .nav-link:hover::after { width:100%; }
+    .nav-link:hover { color:#FF8C42; }
+
+    /* ===== HERO ===== */
+    .hero-bg { background: linear-gradient(135deg,#0d3d22 0%,#1A6B3C 50%,#2D8A52 100%); position:relative; overflow:hidden; }
+    .hero-bg::before { content:''; position:absolute; inset:0; background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); pointer-events:none; }
+    .hero-badge { display:inline-flex; align-items:center; gap:.5rem; background:rgba(255,107,26,.15); border:1px solid rgba(255,107,26,.4); color:#FF8C42; padding:.3rem 1rem; border-radius:999px; font-size:.8rem; font-weight:600; letter-spacing:.08em; text-transform:uppercase; margin-bottom:1.25rem; }
+    .hero-cta-primary { background:linear-gradient(135deg,#FF6B1A,#E55A00); color:#fff; font-weight:700; padding:.85rem 2rem; border-radius:8px; border:none; cursor:pointer; transition:transform .2s,box-shadow .2s; display:inline-flex; align-items:center; gap:.5rem; font-size:.95rem; text-decoration:none; font-family:'Noto Sans',sans-serif; }
+    .hero-cta-primary:hover { transform:translateY(-2px); box-shadow:0 8px 24px rgba(255,107,26,.45); }
+    .hero-cta-secondary { background:transparent; color:#fff; font-weight:600; padding:.85rem 2rem; border-radius:8px; border:2px solid rgba(255,255,255,.5); cursor:pointer; transition:all .2s; display:inline-flex; align-items:center; gap:.5rem; font-size:.95rem; text-decoration:none; font-family:'Noto Sans',sans-serif; }
+    .hero-cta-secondary:hover { border-color:#fff; background:rgba(255,255,255,.1); }
+    .stat-card { background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.15); backdrop-filter:blur(6px); border-radius:12px; padding:1rem 1.25rem; text-align:center; transition:transform .2s; }
+    .stat-card:hover { transform:translateY(-3px); }
+
+    /* ===== VIDEO ===== */
+    .video-wrapper { position:relative; width:100%; aspect-ratio:16/7; overflow:hidden; background:#000; }
+    .video-wrapper video { width:100%; height:100%; object-fit:cover; display:block; }
+    .video-overlay { position:absolute; inset:0; background:linear-gradient(0deg,rgba(10,40,20,.6) 0%,transparent 60%); pointer-events:none; }
+    .video-caption { position:absolute; bottom:1.5rem; left:50%; transform:translateX(-50%); color:#fff; font-family:'Playfair Display',serif; font-size:clamp(1rem,2.5vw,1.5rem); font-style:italic; white-space:nowrap; text-shadow:0 2px 8px rgba(0,0,0,.6); letter-spacing:.04em; }
+
+    /* ===== SECTION HEADERS ===== */
+    .section-tag { display:inline-block; background:rgba(255,107,26,.12); color:#FF6B1A; font-size:.72rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; padding:.3rem .9rem; border-radius:999px; margin-bottom:.75rem; border:1px solid rgba(255,107,26,.25); }
+    .section-title { font-family:'Playfair Display',serif; font-size:clamp(1.75rem,4vw,2.75rem); color:#1A6B3C; line-height:1.2; font-weight:700; }
+    .section-divider { display:flex; align-items:center; gap:.75rem; margin:.75rem 0 1.5rem; }
+    .section-divider span { height:3px; border-radius:2px; }
+    .section-divider .line-long  { background:#1A6B3C; width:48px; }
+    .section-divider .line-short { background:#FF6B1A; width:16px; }
+
+    /* ===== ABOUT ===== */
+    .about-card { background:#fff; border-radius:16px; padding:2rem; border-top:4px solid #1A6B3C; box-shadow:0 4px 20px rgba(0,0,0,.06); transition:transform .3s,box-shadow .3s; }
+    .about-card:hover { transform:translateY(-4px); box-shadow:0 12px 32px rgba(26,107,60,.12); }
+    .about-card-icon { width:52px; height:52px; background:linear-gradient(135deg,#1A6B3C,#2D8A52); border-radius:12px; display:flex; align-items:center; justify-content:center; color:#fff; font-size:1.3rem; margin-bottom:1rem; }
+
+    /* ===== COURSES ===== */
+    .course-card { background:#fff; border-radius:20px; overflow:hidden; box-shadow:0 4px 20px rgba(0,0,0,.07); transition:transform .3s,box-shadow .3s; }
+    .course-card:hover { transform:translateY(-6px); box-shadow:0 16px 40px rgba(0,0,0,.12); }
+    .course-header { padding:1.75rem 1.75rem 1.25rem; }
+    .course-arts     .course-header { background:linear-gradient(135deg,#1A6B3C 0%,#2D8A52 100%); }
+    .course-science  .course-header { background:linear-gradient(135deg,#0d4f7c 0%,#1a6fa3 100%); }
+    .course-commerce .course-header { background:linear-gradient(135deg,#7c3d0d 0%,#b05a1a 100%); }
+    .course-header h3 { font-family:'Playfair Display',serif; color:#fff; font-size:1.5rem; }
+    .course-header p  { color:rgba(255,255,255,.85); font-size:.85rem; margin-top:.25rem; }
+    .course-body { padding:1.5rem 1.75rem 1.75rem; }
+    .subject-chip { display:inline-block; background:#F0F8F4; color:#1A6B3C; font-size:.78rem; font-weight:500; padding:.3rem .75rem; border-radius:999px; margin:.2rem; border:1px solid rgba(26,107,60,.15); transition:background .2s,color .2s; cursor:default; }
+    .subject-chip:hover { background:#1A6B3C; color:#fff; }
+    .course-science  .course-body .subject-chip { background:#EFF6FF; color:#1a6fa3; border-color:rgba(26,111,163,.15); }
+    .course-science  .course-body .subject-chip:hover { background:#1a6fa3; color:#fff; }
+    .course-commerce .course-body .subject-chip { background:#FFF7ED; color:#b05a1a; border-color:rgba(176,90,26,.15); }
+    .course-commerce .course-body .subject-chip:hover { background:#b05a1a; color:#fff; }
+
+    /* ===== FACILITIES ===== */
+    .facility-card { background:#fff; border-radius:16px; padding:1.5rem 1.25rem; text-align:center; box-shadow:0 2px 14px rgba(0,0,0,.05); border:1px solid rgba(26,107,60,.08); transition:all .3s; cursor:default; }
+    .facility-card:hover { background:#1A6B3C; color:#fff; transform:translateY(-4px); box-shadow:0 12px 30px rgba(26,107,60,.25); }
+    .facility-card:hover .facility-icon  { background:rgba(255,255,255,.2); color:#fff; }
+    .facility-card:hover .facility-label { color:#fff; }
+    .facility-icon  { width:56px; height:56px; background:#F0F8F4; border-radius:14px; display:flex; align-items:center; justify-content:center; font-size:1.4rem; color:#1A6B3C; margin:0 auto .9rem; transition:all .3s; }
+    .facility-label { font-size:.85rem; font-weight:600; color:#2d2d2d; transition:color .3s; }
+
+    /* ===== GALLERY ===== */
+    .slideshow-container { position:relative; overflow:hidden; border-radius:20px; background:#111; }
+    .slide { display:none; position:relative; }
+    .slide.active { display:block; }
+    .slide img { width:100%; aspect-ratio:16/9; object-fit:cover; display:block; border-radius:20px; }
+    .slide-caption { position:absolute; bottom:0; left:0; right:0; background:linear-gradient(0deg,rgba(0,0,0,.75) 0%,transparent 100%); color:#fff; padding:2rem 1.5rem 1rem; font-size:1rem; font-weight:600; border-radius:0 0 20px 20px; }
+    .slide-controls { display:flex; justify-content:center; align-items:center; gap:.75rem; margin-top:1.25rem; }
+    .slide-dot { width:10px; height:10px; border-radius:50%; background:rgba(26,107,60,.25); cursor:pointer; transition:all .3s; border:none; }
+    .slide-dot.active { background:#1A6B3C; width:28px; border-radius:5px; }
+    .slide-btn { position:absolute; top:50%; transform:translateY(-50%); background:rgba(255,255,255,.9); color:#1A6B3C; border:none; border-radius:50%; width:44px; height:44px; font-size:1.1rem; cursor:pointer; display:flex; align-items:center; justify-content:center; z-index:10; transition:all .2s; box-shadow:0 2px 12px rgba(0,0,0,.2); }
+    .slide-btn:hover { background:#1A6B3C; color:#fff; }
+    .slide-btn.prev { left:12px; }
+    .slide-btn.next { right:12px; }
+
+    /* ===== ADMIN / LEADERSHIP ===== */
+    .admin-card { background:#fff; border-radius:20px; overflow:hidden; box-shadow:0 4px 20px rgba(0,0,0,.07); transition:transform .3s; text-align:center; }
+    .admin-card:hover { transform:translateY(-5px); }
+    .admin-avatar { width:90px; height:90px; border-radius:50%; background:linear-gradient(135deg,#1A6B3C,#2D8A52); display:flex; align-items:center; justify-content:center; font-size:2.2rem; color:#fff; margin:0 auto; border:4px solid #fff; box-shadow:0 4px 14px rgba(26,107,60,.25); overflow:hidden; }
+    .admin-avatar img { width:100%; height:100%; object-fit:cover; }
+    .admin-card-header { padding:2rem 1.5rem 1rem; background:linear-gradient(180deg,#F0F8F4 0%,#fff 100%); }
+    .admin-card-body   { padding:1rem 1.5rem 1.5rem; }
+    .admin-role { display:inline-block; background:#FF6B1A; color:#fff; font-size:.7rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; padding:.25rem .75rem; border-radius:999px; margin-top:.6rem; }
+
+    /* ===== GOVERNING BODY ===== */
+    .govbody-card { background:#fff; border-radius:16px; padding:1.5rem 1.25rem 1.25rem; text-align:center; box-shadow:0 3px 16px rgba(0,0,0,.07); transition:transform .3s,box-shadow .3s; border-top:3px solid #D4A017; }
+    .govbody-card:hover { transform:translateY(-4px); box-shadow:0 12px 28px rgba(0,0,0,.1); }
+    .govbody-avatar { width:76px; height:76px; border-radius:50%; background:linear-gradient(135deg,#D4A017,#E8BA2A); display:flex; align-items:center; justify-content:center; font-size:1.8rem; color:#fff; margin:0 auto .75rem; border:3px solid #fff; box-shadow:0 3px 10px rgba(212,160,23,.3); overflow:hidden; }
+    .govbody-avatar img { width:100%; height:100%; object-fit:cover; }
+    .govbody-role { display:inline-block; background:rgba(212,160,23,.15); color:#a07a00; font-size:.68rem; font-weight:700; letter-spacing:.09em; text-transform:uppercase; padding:.2rem .65rem; border-radius:999px; margin-top:.4rem; border:1px solid rgba(212,160,23,.3); }
+
+    /* ===== SERVICES ===== */
+    .service-item { display:flex; align-items:flex-start; gap:1rem; padding:1.25rem; background:#fff; border-radius:14px; border-left:4px solid #1A6B3C; box-shadow:0 2px 12px rgba(0,0,0,.05); transition:transform .2s,box-shadow .2s; }
+    .service-item:hover { transform:translateX(4px); box-shadow:0 6px 20px rgba(26,107,60,.1); }
+    .service-icon-wrap { width:44px; height:44px; flex-shrink:0; background:#F0F8F4; border-radius:10px; display:flex; align-items:center; justify-content:center; color:#1A6B3C; font-size:1.1rem; }
+
+    /* ===== CONTACT ===== */
+    .contact-info-item { display:flex; align-items:flex-start; gap:1rem; padding:1rem 0; border-bottom:1px solid rgba(26,107,60,.08); }
+    .contact-info-item:last-child { border-bottom:none; }
+    .contact-icon { width:40px; height:40px; flex-shrink:0; background:linear-gradient(135deg,#1A6B3C,#2D8A52); border-radius:10px; display:flex; align-items:center; justify-content:center; color:#fff; font-size:1rem; }
+    .map-container { border-radius:20px; overflow:hidden; box-shadow:0 4px 24px rgba(0,0,0,.1); }
+
+    /* ===== ENQUIRY POPUP ===== */
+    .float-btn { position:fixed; bottom:2rem; right:1.5rem; z-index:998; background:linear-gradient(135deg,#FF6B1A,#E55A00); color:#fff; font-weight:700; padding:.85rem 1.5rem; border-radius:50px; box-shadow:0 8px 28px rgba(255,107,26,.5); display:flex; align-items:center; gap:.6rem; font-size:.9rem; font-family:'Noto Sans',sans-serif; border:none; cursor:pointer; animation:float-pulse 2.5s ease-in-out infinite; }
+    @keyframes float-pulse { 0%,100%{ box-shadow:0 8px 28px rgba(255,107,26,.5); } 50%{ box-shadow:0 12px 36px rgba(255,107,26,.7); transform:translateY(-3px); } }
+    .float-btn:hover { animation:none; transform:scale(1.06); }
+
+    #enquiry-popup { display:none; position:fixed; inset:0; z-index:1000; background:rgba(0,0,0,.65); backdrop-filter:blur(5px); align-items:center; justify-content:center; padding:1rem; }
+    #enquiry-popup.open { display:flex; }
+    .popup-box { background:#fff; border-radius:20px; overflow:hidden; box-shadow:0 24px 64px rgba(0,0,0,.3); max-width:680px; width:100%; max-height:92vh; display:flex; flex-direction:column; animation:popup-in .3s ease; }
+    @keyframes popup-in { from{ opacity:0; transform:scale(.95) translateY(12px); } to{ opacity:1; transform:scale(1) translateY(0); } }
+    .popup-header { background:linear-gradient(135deg,#1A6B3C,#2D8A52); padding:1rem 1.5rem; display:flex; align-items:center; justify-content:space-between; flex-shrink:0; }
+    .popup-close { background:rgba(255,255,255,.2); border:none; color:#fff; width:34px; height:34px; border-radius:50%; cursor:pointer; display:flex; align-items:center; justify-content:center; font-size:1.1rem; transition:background .2s; flex-shrink:0; }
+    .popup-close:hover { background:rgba(255,255,255,.4); }
+    .popup-body { overflow-y:auto; flex:1; }
+    .popup-body iframe { display:block; width:100%; border:0; }
+
+    /* ===== FOOTER ===== */
+    .footer-link { color:rgba(255,255,255,.7); text-decoration:none; font-size:.875rem; transition:color .2s; display:block; margin-bottom:.5rem; }
+    .footer-link:hover { color:#FF8C42; }
+
+    /* ===== NOTICE TICKER ===== */
+    .notice-bar { background:#FF6B1A; color:#fff; overflow:hidden; white-space:nowrap; padding:.55rem 0; }
+    .ticker-wrap { display:flex; gap:3rem; animation:ticker 35s linear infinite; }
+    @keyframes ticker { from{ transform:translateX(100vw); } to{ transform:translateX(-250%); } }
+
+    /* ===== MISC ===== */
+    .badge-affiliation { display:inline-flex; align-items:center; gap:.5rem; background:linear-gradient(135deg,#1A6B3C,#2D8A52); color:#fff; padding:.5rem 1.25rem; border-radius:999px; font-size:.82rem; font-weight:600; letter-spacing:.04em; }
+    .section-bg-alt { background:#F0F8F4; }
+    .fade-up { opacity:0; transform:translateY(32px); transition:opacity .6s ease,transform .6s ease; }
+    .fade-up.visible { opacity:1; transform:translateY(0); }
+  </style>
+</head>
+<body>
+
+<!-- =========================================================
+     FLOATING "ENQUIRE NOW" BUTTON
+========================================================= -->
+<button class="float-btn" onclick="openEnquiry()" aria-label="Enquire Now">
+  <i class="fa-solid fa-paper-plane"></i>
+  <span>Enquire Now</span>
+</button>
+
+<!-- =========================================================
+     ENQUIRY POPUP — Google Form embedded
+========================================================= -->
+<div id="enquiry-popup" role="dialog" aria-modal="true" aria-label="Admission Enquiry Form">
+  <div class="popup-box">
+    <div class="popup-header">
+      <div>
+        <div class="font-display font-bold text-white text-base leading-tight">Admission Enquiry</div>
+        <div class="text-white/70 text-xs mt-0.5">Fill the form — our team will contact you shortly</div>
+      </div>
+      <button class="popup-close" onclick="closeEnquiry()" aria-label="Close">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <div class="popup-body">
+      <!-- Google Form embed as provided -->
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSdpriV_VAHU9p49pwYbKNq-8syQBDNfNJe19T4VuRk11efriQ/viewform?embedded=true"
+        width="100%"
+        height="1570"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        title="Admission Enquiry Form"
+        loading="lazy"
+      >Loading…</iframe>
+    </div>
+  </div>
+</div>
+
+
+<!-- =========================================================
+     NAVBAR
+========================================================= -->
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-forest py-3" role="navigation" aria-label="Main Navigation">
+  <div class="max-w-7xl mx-auto px-4 flex items-center justify-between">
+
+    <a href="#home" class="flex items-center gap-3" aria-label="SNSRNS Degree College Home">
+      <div class="w-11 h-11 rounded-full bg-white flex items-center justify-center shadow-md flex-shrink-0">
+        <i class="fa-solid fa-graduation-cap text-forest text-xl"></i>
+      </div>
+      <div>
+        <div class="font-display font-bold text-white text-sm leading-tight">SNSRNS Degree College</div>
+        <div class="text-xs text-white/60 leading-tight">Affiliated to BRABU, Muzaffarpur</div>
+      </div>
+    </a>
+
+    <div class="hidden lg:flex items-center gap-5">
+      <a href="#about"      class="nav-link">About</a>
+      <a href="#courses"    class="nav-link">Courses</a>
+      <a href="#facilities" class="nav-link">Facilities</a>
+      <a href="#gallery"    class="nav-link">Gallery</a>
+      <a href="#admin"      class="nav-link">Leadership</a>
+      <a href="#governing"  class="nav-link">Governing Body</a>
+      <a href="#services"   class="nav-link">Services</a>
+      <a href="#contact"    class="nav-link">Contact</a>
+    </div>
+
+    <div class="flex items-center gap-3">
+      <button onclick="openEnquiry()" class="hidden md:inline-flex items-center gap-2 bg-saffron hover:bg-saffron-dark text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors border-none cursor-pointer font-body">
+        <i class="fa-solid fa-user-plus text-xs"></i> Admissions
+      </button>
+      <button id="hamburger" aria-label="Toggle Menu" aria-expanded="false" class="lg:hidden text-white text-xl p-2 rounded-lg hover:bg-white/10 transition-colors border-none bg-transparent cursor-pointer">
+        <i class="fa-solid fa-bars" id="ham-icon"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden lg:hidden px-4 pb-4 pt-2 border-t border-white/10 mt-2">
+    <div class="flex flex-col gap-1">
+      <a href="#about"      class="nav-link py-2 block border-b border-white/10">About</a>
+      <a href="#courses"    class="nav-link py-2 block border-b border-white/10">Courses</a>
+      <a href="#facilities" class="nav-link py-2 block border-b border-white/10">Facilities</a>
+      <a href="#gallery"    class="nav-link py-2 block border-b border-white/10">Gallery</a>
+      <a href="#admin"      class="nav-link py-2 block border-b border-white/10">Leadership</a>
+      <a href="#governing"  class="nav-link py-2 block border-b border-white/10">Governing Body</a>
+      <a href="#services"   class="nav-link py-2 block border-b border-white/10">Services</a>
+      <a href="#contact"    class="nav-link py-2 block border-b border-white/10">Contact</a>
+      <button onclick="openEnquiry()" class="hero-cta-primary mt-3 justify-center w-full">
+        <i class="fa-solid fa-user-plus text-xs"></i> Apply for Admission
+      </button>
+    </div>
+  </div>
+</nav>
+
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+<section id="home" class="hero-bg pt-28 pb-16 px-4" aria-label="Hero">
+  <div class="max-w-7xl mx-auto">
+    <div class="max-w-3xl">
+      <div class="hero-badge"><i class="fa-solid fa-star text-xs"></i> Est. 2022 · Permanently Affiliated to BRABU</div>
+      <h1 class="font-display text-white leading-tight mb-4" style="font-size:clamp(1.75rem,5vw,3.25rem);">
+        Shyam Narayan Singh<br/>Ram Narayan Singh<br/><span style="color:#FF8C42;">Degree College</span>
+      </h1>
+      <p class="text-white/75 mb-2 text-sm md:text-base max-w-xl leading-relaxed">
+        Empowering futures through quality education in East Champaran, Bihar.<br/>Offering BA, BSc &amp; BCom programmes in a nurturing academic environment.
+      </p>
+      <div class="flex items-center gap-2 text-white/60 text-sm mb-8">
+        <i class="fa-solid fa-location-dot text-saffron"></i>
+        Village Dermahan, Post Kesariya, Block Kalyanpur, Dist. East Champaran – 845432
+      </div>
+      <div class="flex flex-wrap gap-3">
+        <!-- Navigates to #courses section -->
+        <a href="#courses" class="hero-cta-primary"><i class="fa-solid fa-book-open text-sm"></i> Explore Courses</a>
+        <!-- Click-to-call helpline -->
+        <a href="tel:9293830195" class="hero-cta-secondary"><i class="fa-solid fa-phone text-sm"></i> Call Helpline</a>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-14">
+      <div class="stat-card fade-up"><div class="font-display text-white text-2xl md:text-3xl font-bold">3+</div><div class="text-white/65 text-xs mt-1">Degree Programmes</div></div>
+      <div class="stat-card fade-up" style="transition-delay:.1s"><div class="font-display text-white text-2xl md:text-3xl font-bold">21</div><div class="text-white/65 text-xs mt-1">Subjects Offered</div></div>
+      <div class="stat-card fade-up" style="transition-delay:.2s"><div class="font-display text-white text-2xl md:text-3xl font-bold">BRABU</div><div class="text-white/65 text-xs mt-1">University Affiliated</div></div>
+      <div class="stat-card fade-up" style="transition-delay:.3s"><div class="font-display text-white text-2xl md:text-3xl font-bold">2022</div><div class="text-white/65 text-xs mt-1">Year Established</div></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- =========================================================
+     VIDEO — Replace src with actual campus video file
+     e.g.  src="./assets/campus-tour.mp4"
+========================================================= -->
+<div class="video-wrapper">
+  <video src="https://www.w3schools.com/html/mov_bbb.mp4" autoplay muted loop playsinline preload="metadata" aria-label="Campus video tour">
+    Your browser does not support HTML5 video.
+  </video>
+  <div class="video-overlay"></div>
+  <div class="video-caption">"Shaping Leaders, Transforming Lives"</div>
+</div>
+
+
+<!-- =========================================================
+     NOTICE TICKER
+========================================================= -->
+<div class="notice-bar" role="marquee" aria-label="College notices">
+  <div class="ticker-wrap text-sm font-semibold">
+    <span><i class="fa-solid fa-bell mr-2"></i>Admissions Open for 2025–26 Session</span>
+    <span>|</span>
+    <span>Permanently Affiliated to B.R.A. Bihar University, Muzaffarpur</span>
+    <span>|</span>
+    <span>Affiliation No.: 14/ए0एफ0-21/2023-1054 dated 28 Feb 2025</span>
+    <span>|</span>
+    <span>Post Matric Scholarship (PMS) available for eligible students</span>
+    <span>|</span>
+    <span>Anti-Ragging Helpline: 9293830195 | Women Cell / POSH in place</span>
+    <span>|</span>
+    <span>Admissions Open for 2025–26 Session — Enquire Now!</span>
+  </div>
+</div>
+
+
+<!-- =========================================================
+     ABOUT
+========================================================= -->
+<section id="about" class="py-20 px-4 bg-white" aria-label="About Us">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid lg:grid-cols-2 gap-14 items-center">
+      <div class="fade-up">
+        <div class="section-tag">About the College</div>
+        <h2 class="section-title">Rooted in Values,<br/>Rising with Excellence</h2>
+        <div class="section-divider"><span class="line-long"></span><span class="line-short"></span></div>
+        <p class="text-gray-600 leading-relaxed mb-4 text-sm md:text-base">
+          <strong class="text-forest">SNSRNS Degree College</strong> was established in 2022 with a mission to bring quality higher education to the heart of rural Bihar. Situated at Village Dermahan (Darmaha), Post Kesariya, Block Kalyanpur, District East Champaran, the college is dedicated to the academic, social, and personal development of every student.
+        </p>
+        <p class="text-gray-600 leading-relaxed mb-6 text-sm md:text-base">
+          We are <strong>permanently affiliated to B.R. Ambedkar Bihar University (BRABU), Muzaffarpur</strong>, vide affiliation letter No. <em>14/ए0एफ0-21/2023-1054 dated 28 February 2025</em>, ensuring that all degrees and certifications are fully recognised under the Bihar Government's academic framework.
+        </p>
+        <div class="flex flex-wrap gap-3">
+          <div class="badge-affiliation"><i class="fa-solid fa-shield-check"></i> Permanently Affiliated by Bihar Govt.</div>
+          <div class="badge-affiliation" style="background:linear-gradient(135deg,#FF6B1A,#E55A00);"><i class="fa-solid fa-university"></i> BRABU, Muzaffarpur</div>
+        </div>
+      </div>
+      <div class="grid sm:grid-cols-2 gap-4 fade-up" style="transition-delay:.15s">
+        <div class="about-card">
+          <div class="about-card-icon"><i class="fa-solid fa-eye"></i></div>
+          <h3 class="font-display font-semibold text-forest text-lg mb-2">Our Vision</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">To be a premier institution that nurtures knowledge, character, and civic responsibility among students of rural Bihar.</p>
+        </div>
+        <div class="about-card" style="border-top-color:#FF6B1A;">
+          <div class="about-card-icon" style="background:linear-gradient(135deg,#FF6B1A,#E55A00);"><i class="fa-solid fa-bullseye"></i></div>
+          <h3 class="font-display font-semibold text-forest text-lg mb-2">Our Mission</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">Providing affordable, accessible, and inclusive higher education while fostering critical thinking and community values.</p>
+        </div>
+        <div class="about-card" style="border-top-color:#D4A017;">
+          <div class="about-card-icon" style="background:linear-gradient(135deg,#D4A017,#E8BA2A);"><i class="fa-solid fa-handshake"></i></div>
+          <h3 class="font-display font-semibold text-forest text-lg mb-2">Affiliation</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">Permanently affiliated to BRABU, Muzaffarpur — every degree holds full university recognition.</p>
+        </div>
+        <div class="about-card" style="border-top-color:#2D8A52;">
+          <div class="about-card-icon" style="background:linear-gradient(135deg,#2D8A52,#48a96e);"><i class="fa-solid fa-users"></i></div>
+          <h3 class="font-display font-semibold text-forest text-lg mb-2">Community</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">Serving students from East Champaran and surrounding regions, building a stronger Bihar through education.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- =========================================================
+     COURSES  (href="#courses" from hero "Explore Courses" points here)
+========================================================= -->
+<section id="courses" class="py-20 px-4 section-bg-alt" aria-label="Courses Offered">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-12 fade-up">
+      <div class="section-tag mx-auto" style="display:inline-block;">Our Programmes</div>
+      <h2 class="section-title mt-1">Courses Offered</h2>
+      <div class="section-divider justify-center"><span class="line-long"></span><span class="line-short"></span></div>
+      <p class="text-gray-500 text-sm md:text-base max-w-xl mx-auto">Three-year undergraduate degree programmes in Arts, Science, and Commerce — designed to build a strong foundation for your career and life.</p>
+    </div>
+    <div class="grid md:grid-cols-3 gap-6">
+
+      <!-- BA -->
+      <div class="course-card course-arts fade-up">
+        <div class="course-header">
+          <div class="text-white/70 text-xs font-bold uppercase tracking-widest mb-1">3-Year Programme</div>
+          <h3>Bachelor of Arts</h3>
+          <p>12 Subjects Available</p>
+        </div>
+        <div class="course-body">
+          <p class="text-xs text-gray-500 font-semibold uppercase tracking-wider mb-3">Subjects</p>
+          <div>
+            <span class="subject-chip">Hindi</span><span class="subject-chip">English</span><span class="subject-chip">Urdu</span>
+            <span class="subject-chip">Sanskrit</span><span class="subject-chip">History</span><span class="subject-chip">Political Science</span>
+            <span class="subject-chip">Psychology</span><span class="subject-chip">Geography</span><span class="subject-chip">Sociology</span>
+            <span class="subject-chip">Economics</span><span class="subject-chip">Home Science</span><span class="subject-chip">Music</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- BSc -->
+      <div class="course-card course-science fade-up" style="transition-delay:.1s">
+        <div class="course-header">
+          <div class="text-white/70 text-xs font-bold uppercase tracking-widest mb-1">3-Year Programme</div>
+          <h3>Bachelor of Science</h3>
+          <p>5 Subjects Available</p>
+        </div>
+        <div class="course-body">
+          <p class="text-xs text-gray-500 font-semibold uppercase tracking-wider mb-3">Subjects</p>
+          <div>
+            <span class="subject-chip">Physics</span><span class="subject-chip">Chemistry</span>
+            <span class="subject-chip">Botany</span><span class="subject-chip">Zoology</span><span class="subject-chip">Mathematics</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- BCom -->
+      <div class="course-card course-commerce fade-up" style="transition-delay:.2s">
+        <div class="course-header">
+          <div class="text-white/70 text-xs font-bold uppercase tracking-widest mb-1">3-Year Programme</div>
+          <h3>Bachelor of Commerce</h3>
+          <p>4 Subjects Available</p>
+        </div>
+        <div class="course-body">
+          <p class="text-xs text-gray-500 font-semibold uppercase tracking-wider mb-3">Subjects</p>
+          <div>
+            <span class="subject-chip">Accountancy</span><span class="subject-chip">Corporate Administration</span>
+            <span class="subject-chip">Business Environment</span><span class="subject-chip">Business Finance</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CTA below courses — opens enquiry popup -->
+    <div class="text-center mt-10 fade-up">
+      <button onclick="openEnquiry()" class="hero-cta-primary" style="font-size:1rem;padding:1rem 2.5rem;">
+        <i class="fa-solid fa-paper-plane"></i> Enquire About Admissions
+      </button>
+    </div>
+  </div>
+</section>
+
+
+<!-- =========================================================
+     FACILITIES
+========================================================= -->
+<section id="facilities" class="py-20 px-4 bg-white" aria-label="Facilities">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-12 fade-up">
+      <div class="section-tag mx-auto" style="display:inline-block;">Infrastructure</div>
+      <h2 class="section-title mt-1">Our Facilities</h2>
+      <div class="section-divider justify-center"><span class="line-long"></span><span class="line-short"></span></div>
+      <p class="text-gray-500 text-sm md:text-base max-w-xl mx-auto">A modern, safe and inclusive campus built to support every student's learning journey.</p>
+    </div>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+      <div class="facility-card fade-up"                          ><div class="facility-icon"><i class="fa-solid fa-chalkboard-teacher"></i></div><div class="facility-label">Smart Classrooms</div></div>
+      <div class="facility-card fade-up" style="transition-delay:.05s"><div class="facility-icon"><i class="fa-solid fa-book-open"></i></div><div class="facility-label">Library</div></div>
+      <div class="facility-card fade-up" style="transition-delay:.1s" ><div class="facility-icon"><i class="fa-solid fa-computer"></i></div><div class="facility-label">Computer Lab</div></div>
+      <div class="facility-card fade-up" style="transition-delay:.15s"><div class="facility-icon"><i class="fa-solid fa-flask"></i></div><div class="facility-label">Science Labs</div></div>
+      <div class="facility-card fade-up" style="transition-delay:.2s" ><div class="facility-icon"><i class="fa-solid fa-futbol"></i></div><div class="facility-label">Playground</div></div>
+      <div class="facility-card fade-up" style="transition-delay:.25s"><div class="facility-icon"><i class="fa-solid fa-video"></i></div><div class="facility-label">CCTV Security</div></div>
+      <div class="facility-card fade-up" style="transition-delay:.3s" ><div class="facility-icon"><i class="fa-solid fa-wheelchair"></i></div><div class="facility-label">Disability-Friendly</div></div>
+      <div class="facility-card fade-up" style="transition-delay:.35s"><div class="facility-icon"><i class="fa-solid fa-droplet"></i></div><div class="facility-label">Drinking Water</div></div>
+      <div class="facility-card fade-up" style="transition-delay:.4s" ><div class="facility-icon"><i class="fa-solid fa-restroom"></i></div><div class="facility-label">Toilets</div></div>
+      <div class="facility-card fade-up" style="transition-delay:.45s"><div class="facility-icon"><i class="fa-solid fa-wifi"></i></div><div class="facility-label">Internet / Wi-Fi</div></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- =========================================================
+     GALLERY
+========================================================= -->
+<section id="gallery" class="py-20 px-4 section-bg-alt" aria-label="Campus Gallery">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-12 fade-up">
+      <div class="section-tag mx-auto" style="display:inline-block;">Campus Life</div>
+      <h2 class="section-title mt-1">Campus Gallery</h2>
+      <div class="section-divider justify-center"><span class="line-long"></span><span class="line-short"></span></div>
+    </div>
+    <!-- Replace Unsplash URLs with real campus photos (16:9, 1200×675px recommended) -->
+    <div class="slideshow-container fade-up" id="gallery-slideshow">
+      <button class="slide-btn prev" onclick="changeSlide(-1)" aria-label="Previous slide"><i class="fa-solid fa-chevron-left"></i></button>
+      <button class="slide-btn next" onclick="changeSlide(1)"  aria-label="Next slide"><i class="fa-solid fa-chevron-right"></i></button>
+      <div class="slide active">
+        <img src="https://images.unsplash.com/photo-1562774053-701939374585?w=1200&h=675&fit=crop" alt="College Building" loading="lazy" />
+        <div class="slide-caption"><i class="fa-solid fa-building mr-2"></i>College Main Building</div>
+      </div>
+      <div class="slide">
+        <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=1200&h=675&fit=crop" alt="Library" loading="lazy" />
+        <div class="slide-caption"><i class="fa-solid fa-book mr-2"></i>Central Library</div>
+      </div>
+      <div class="slide">
+        <img src="https://images.unsplash.com/photo-1532094349884-543559244dee?w=1200&h=675&fit=crop" alt="Science Lab" loading="lazy" />
+        <div class="slide-caption"><i class="fa-solid fa-flask mr-2"></i>Science Laboratory</div>
+      </div>
+      <div class="slide">
+        <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1200&h=675&fit=crop" alt="Computer Lab" loading="lazy" />
+        <div class="slide-caption"><i class="fa-solid fa-computer mr-2"></i>Computer Laboratory</div>
+      </div>
+      <div class="slide">
+        <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1200&h=675&fit=crop" alt="Classroom" loading="lazy" />
+        <div class="slide-caption"><i class="fa-solid fa-chalkboard-teacher mr-2"></i>Smart Classroom</div>
+      </div>
+    </div>
+    <div class="slide-controls" id="slide-dots">
+      <button class="slide-dot active" onclick="goToSlide(0)" aria-label="Slide 1"></button>
+      <button class="slide-dot"        onclick="goToSlide(1)" aria-label="Slide 2"></button>
+      <button class="slide-dot"        onclick="goToSlide(2)" aria-label="Slide 3"></button>
+      <button class="slide-dot"        onclick="goToSlide(3)" aria-label="Slide 4"></button>
+      <button class="slide-dot"        onclick="goToSlide(4)" aria-label="Slide 5"></button>
+    </div>
+  </div>
+</section>
+
+
+<!-- =========================================================
+     ADMINISTRATION / LEADERSHIP
+========================================================= -->
+<section id="admin" class="py-20 px-4 bg-white" aria-label="College Administration">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-12 fade-up">
+      <div class="section-tag mx-auto" style="display:inline-block;">Leadership</div>
+      <h2 class="section-title mt-1">College Administration</h2>
+      <div class="section-divider justify-center"><span class="line-long"></span><span class="line-short"></span></div>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
+
+      <!-- Principal -->
+      <div class="admin-card fade-up">
+        <div class="admin-card-header">
+          <!--
+            HOW TO ADD PHOTO:
+            Create a "photos" folder next to index.html and place the image there.
+            Then replace the <i> tag inside .admin-avatar with:
+            <img src="./photos/poonam-kumari.jpg" alt="Mrs. Poonam Kumari" />
+          -->
+          <div class="admin-avatar"><i class="fa-solid fa-user-tie"></i></div>
+          <div class="admin-role">Principal</div>
+        </div>
+        <div class="admin-card-body">
+          <h3 class="font-display font-semibold text-forest text-lg">Mrs. Poonam Kumari</h3>
+          <p class="text-gray-500 text-sm mt-1">Head of Academic Affairs</p>
+          <a href="tel:7322801479" class="mt-3 inline-flex items-center gap-2 text-sm text-saffron hover:text-saffron-dark font-semibold transition-colors">
+            <i class="fa-solid fa-phone text-xs"></i> 7322801479
+          </a>
+        </div>
+      </div>
+
+      <!-- President -->
+      <div class="admin-card fade-up" style="transition-delay:.1s">
+        <div class="admin-card-header">
+          <!-- Replace icon with: <img src="./photos/uday-narayan-sharma.jpg" alt="Shri Uday Narayan Sharma" /> -->
+          <div class="admin-avatar" style="background:linear-gradient(135deg,#FF6B1A,#E55A00)"><i class="fa-solid fa-crown"></i></div>
+          <div class="admin-role" style="background:#1A6B3C;">President</div>
+        </div>
+        <div class="admin-card-body">
+          <h3 class="font-display font-semibold text-forest text-lg">Shri Uday Narayan Sharma</h3>
+          <p class="text-gray-500 text-sm mt-1">Governing Body President</p>
+        </div>
+      </div>
+
+      <!-- Secretary -->
+      <div class="admin-card fade-up" style="transition-delay:.2s">
+        <div class="admin-card-header">
+          <!-- Replace icon with: <img src="./photos/shweta-rani.jpg" alt="Smt. Shweta Rani" /> -->
+          <div class="admin-avatar" style="background:linear-gradient(135deg,#D4A017,#E8BA2A)"><i class="fa-solid fa-pen-nib"></i></div>
+          <div class="admin-role" style="background:#D4A017;">Secretary</div>
+        </div>
+        <div class="admin-card-body">
+          <h3 class="font-display font-semibold text-forest text-lg">Smt. Shweta Rani</h3>
+          <p class="text-gray-500 text-sm mt-1">College Secretary</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- =========================================================
+     GOVERNING BODY MEMBERS
+========================================================= -->
+<section id="governing" class="py-20 px-4 section-bg-alt" aria-label="Governing Body">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-12 fade-up">
+      <div class="section-tag mx-auto" style="display:inline-block;">Governance</div>
+      <h2 class="section-title mt-1">Governing Body Members</h2>
+      <div class="section-divider justify-center"><span class="line-long"></span><span class="line-short"></span></div>
+      <p class="text-gray-500 text-sm md:text-base max-w-xl mx-auto">The Governing Body provides strategic oversight, ensuring the college upholds its academic mission and institutional values.</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-4xl mx-auto">
+
+      <!-- Member 1 — Shambhavi Rani -->
+      <div class="govbody-card fade-up">
+        <div class="govbody-avatar">
+          <!--
+            HOW TO ADD PHOTO for Shambhavi Rani:
+            Place image at ./photos/shambhavi-rani.jpg  then replace the <i> below with:
+            <img src="./photos/shambhavi-rani.jpg" alt="Shambhavi Rani" />
+          -->
+          <i class="fa-solid fa-user text-white" style="font-size:1.8rem;"></i>
+        </div>
+        <div class="govbody-role">Member</div>
+        <h3 class="font-display font-semibold text-forest text-base mt-2">Shambhavi Rani</h3>
+        <p class="text-gray-500 text-xs mt-1">Governing Body Member</p>
+      </div>
+
+      <!-- Member 2 — Amrendra Kumar -->
+      <div class="govbody-card fade-up" style="transition-delay:.1s; border-top-color:#1A6B3C;">
+        <div class="govbody-avatar" style="background:linear-gradient(135deg,#1A6B3C,#2D8A52);">
+          <!--
+            HOW TO ADD PHOTO for Amrendra Kumar:
+            <img src="./photos/amrendra-kumar.jpg" alt="Amrendra Kumar" />
+          -->
+          <i class="fa-solid fa-user text-white" style="font-size:1.8rem;"></i>
+        </div>
+        <div class="govbody-role" style="background:rgba(26,107,60,.12);color:#1A6B3C;border-color:rgba(26,107,60,.3);">Member</div>
+        <h3 class="font-display font-semibold text-forest text-base mt-2">Amrendra Kumar</h3>
+        <p class="text-gray-500 text-xs mt-1">Governing Body Member</p>
+      </div>
+
+      <!-- Member 3 — Sapna Rani -->
+      <div class="govbody-card fade-up" style="transition-delay:.2s; border-top-color:#FF6B1A;">
+        <div class="govbody-avatar" style="background:linear-gradient(135deg,#FF6B1A,#E55A00);">
+          <!--
+            HOW TO ADD PHOTO for Sapna Rani:
+            <img src="./photos/sapna-rani.jpg" alt="Sapna Rani" />
+          -->
+          <i class="fa-solid fa-user text-white" style="font-size:1.8rem;"></i>
+        </div>
+        <div class="govbody-role" style="background:rgba(255,107,26,.12);color:#E55A00;border-color:rgba(255,107,26,.3);">Member</div>
+        <h3 class="font-display font-semibold text-forest text-base mt-2">Sapna Rani</h3>
+        <p class="text-gray-500 text-xs mt-1">Governing Body Member</p>
+      </div>
+
+    </div>
+
+    <!-- Helper note for photo upload -->
+    <p class="text-center text-xs text-gray-400 mt-8 italic">
+      <i class="fa-solid fa-circle-info mr-1"></i>
+      To display actual photos: create a <code>photos/</code> folder alongside <code>index.html</code>, add the images, and update each card's <code>img src</code> path as shown in the HTML comments.
+    </p>
+  </div>
+</section>
+
+
+<!-- =========================================================
+     STUDENT SERVICES
+========================================================= -->
+<section id="services" class="py-20 px-4 bg-white" aria-label="Student Services">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid lg:grid-cols-2 gap-14 items-start">
+
+      <div class="fade-up">
+        <div class="section-tag">Student Welfare</div>
+        <h2 class="section-title">Student Services<br/>&amp; Support</h2>
+        <div class="section-divider"><span class="line-long"></span><span class="line-short"></span></div>
+        <p class="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
+          SNSRNS Degree College is committed to the holistic well-being of every student. Beyond academics, we provide a range of services to ensure a safe, inclusive, and supportive campus experience.
+        </p>
+
+        <!-- Quick contact block -->
+        <div class="bg-white rounded-2xl p-5 shadow-sm border border-forest/10">
+          <p class="text-xs font-bold uppercase tracking-wider text-forest mb-4">Quick Contact</p>
+          <div class="flex flex-col gap-3">
+            <!-- Helpline — click-to-call -->
+            <a href="tel:9293830195" class="flex items-center gap-3 text-sm text-gray-700 hover:text-forest transition-colors font-medium">
+              <i class="fa-solid fa-phone text-forest text-base w-5"></i>
+              Helpline: 9293830195
+            </a>
+            <!-- Alternate — click-to-call -->
+            <a href="tel:7549353710" class="flex items-center gap-3 text-sm text-gray-700 hover:text-forest transition-colors font-medium">
+              <i class="fa-solid fa-phone text-saffron text-base w-5"></i>
+              Alternate: 7549353710
+            </a>
+            <!-- WhatsApp — opens chat with pre-filled message -->
+            <a href="https://wa.me/917549935371?text=Hey%20I%20want%20information%20about%20college"
+               target="_blank" rel="noopener noreferrer"
+               class="flex items-center gap-3 text-sm text-gray-700 hover:text-green-700 transition-colors font-medium">
+              <i class="fa-brands fa-whatsapp text-green-600 text-lg w-5"></i>
+              WhatsApp: 75499353710
+            </a>
+            <a href="mailto:snsrnsdegreecollege@gmail.com" class="flex items-center gap-3 text-sm text-gray-700 hover:text-forest transition-colors font-medium">
+              <i class="fa-solid fa-envelope text-saffron text-base w-5"></i>
+              snsrnsdegreecollege@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-3 fade-up" style="transition-delay:.1s">
+        <div class="service-item">
+          <div class="service-icon-wrap"><i class="fa-solid fa-shield-halved"></i></div>
+          <div><div class="font-semibold text-forest text-sm">Anti-Ragging Cell</div><div class="text-gray-500 text-xs mt-0.5">Zero tolerance for ragging. Dedicated helpline and committee to ensure campus safety.</div></div>
+        </div>
+        <div class="service-item" style="border-left-color:#FF6B1A;">
+          <div class="service-icon-wrap" style="background:#FFF0E8;color:#FF6B1A;"><i class="fa-solid fa-venus"></i></div>
+          <div><div class="font-semibold text-forest text-sm">Women Cell / POSH</div><div class="text-gray-500 text-xs mt-0.5">Prevention of Sexual Harassment (POSH) committee ensuring a safe environment for all women.</div></div>
+        </div>
+        <div class="service-item" style="border-left-color:#D4A017;">
+          <div class="service-icon-wrap" style="background:#FDF8E7;color:#D4A017;"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+          <div><div class="font-semibold text-forest text-sm">Post Matric Scholarship (PMS)</div><div class="text-gray-500 text-xs mt-0.5">Financial assistance for eligible SC/ST/OBC/EBC students through Bihar Government's PMS scheme.</div></div>
+        </div>
+        <div class="service-item" style="border-left-color:#2D8A52;">
+          <div class="service-icon-wrap"><i class="fa-solid fa-id-card"></i></div>
+          <div><div class="font-semibold text-forest text-sm">Student Identity &amp; Records</div><div class="text-gray-500 text-xs mt-0.5">Seamless issuance of ID cards, migration certificates, and academic transcripts.</div></div>
+        </div>
+        <div class="service-item">
+          <div class="service-icon-wrap"><i class="fa-solid fa-book-open-reader"></i></div>
+          <div><div class="font-semibold text-forest text-sm">Library &amp; Reading Room</div><div class="text-gray-500 text-xs mt-0.5">Well-stocked library with a quiet reading room, reference books, and periodicals.</div></div>
+        </div>
+        <div class="service-item" style="border-left-color:#FF6B1A;">
+          <div class="service-icon-wrap" style="background:#FFF0E8;color:#FF6B1A;"><i class="fa-solid fa-wifi"></i></div>
+          <div><div class="font-semibold text-forest text-sm">Internet Access</div><div class="text-gray-500 text-xs mt-0.5">Campus-wide Wi-Fi to support digital learning and research.</div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- =========================================================
+     CONTACT
+========================================================= -->
+<section id="contact" class="py-20 px-4 section-bg-alt" aria-label="Contact Us">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-12 fade-up">
+      <div class="section-tag mx-auto" style="display:inline-block;">Get In Touch</div>
+      <h2 class="section-title mt-1">Contact Us</h2>
+      <div class="section-divider justify-center"><span class="line-long"></span><span class="line-short"></span></div>
+    </div>
+
+    <div class="grid lg:grid-cols-2 gap-10 items-start">
+
+      <!-- Left: contact info + map -->
+      <div class="fade-up">
+        <div class="bg-white rounded-2xl shadow-sm border border-forest/10 p-6 mb-6">
+
+          <!-- Address -->
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <div class="font-semibold text-forest text-sm">Address</div>
+              <div class="text-gray-600 text-xs mt-0.5 leading-relaxed">Village Dermahan (Darmaha), Post Kesariya,<br/>Block Kalyanpur, Dist. East Champaran, Bihar – 845432</div>
+            </div>
+          </div>
+
+          <!-- Helpline — click-to-call -->
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <div class="font-semibold text-forest text-sm">Helpline</div>
+              <a href="tel:9293830195" class="text-gray-700 text-sm font-semibold hover:text-forest transition-colors">9293830195</a>
+            </div>
+          </div>
+
+          <!-- Alternate — click-to-call -->
+          <div class="contact-info-item">
+            <div class="contact-icon" style="background:linear-gradient(135deg,#FF6B1A,#E55A00);"><i class="fa-solid fa-phone-volume"></i></div>
+            <div>
+              <div class="font-semibold text-forest text-sm">Alternate Number</div>
+              <a href="tel:7549353710" class="text-gray-700 text-sm font-semibold hover:text-forest transition-colors">7549353710</a>
+            </div>
+          </div>
+
+          <!-- WhatsApp — opens chat with pre-filled message -->
+          <div class="contact-info-item">
+            <div class="contact-icon" style="background:linear-gradient(135deg,#25d366,#128C7E);"><i class="fa-brands fa-whatsapp"></i></div>
+            <div>
+              <div class="font-semibold text-forest text-sm">WhatsApp</div>
+              <a href="https://wa.me/917549935371?text=Hey%20I%20want%20information%20about%20college"
+                 target="_blank" rel="noopener noreferrer"
+                 class="text-gray-700 text-sm font-semibold hover:text-green-700 transition-colors inline-flex items-center gap-1">
+                75499353710 <i class="fa-solid fa-arrow-up-right-from-square text-xs text-gray-400"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Principal -->
+          <div class="contact-info-item">
+            <div class="contact-icon" style="background:linear-gradient(135deg,#D4A017,#E8BA2A);"><i class="fa-solid fa-user-tie"></i></div>
+            <div>
+              <div class="font-semibold text-forest text-sm">Principal's Mobile</div>
+              <a href="tel:7322801479" class="text-gray-700 text-sm font-semibold hover:text-forest transition-colors">7322801479</a>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <div class="font-semibold text-forest text-sm">Email</div>
+              <a href="mailto:snsrnsdegreecollege@gmail.com" class="text-gray-700 text-sm font-semibold hover:text-forest transition-colors break-all">snsrnsdegreecollege@gmail.com</a>
+            </div>
+          </div>
+
+          <!-- Affiliation -->
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fa-solid fa-building-columns"></i></div>
+            <div>
+              <div class="font-semibold text-forest text-sm">Affiliation</div>
+              <div class="text-gray-600 text-xs mt-0.5 leading-relaxed">B.R.A. Bihar University (BRABU), Muzaffarpur<br/>No. 14/ए0एफ0-21/2023-1054, dated 28 Feb 2025</div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Google Maps embed — exact code provided by college -->
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d464795.16740184475!2d84.30520748484192!3d26.3616487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39932ba4f2942def%3A0xcade6f5fc9a90212!2sShyamnarayan%20Singh%20Ramnarayan%20Singh%20Degree%20College%20darmaha!5e1!3m2!1sen!2sin!4v1775246931291!5m2!1sen!2sin"
+            width="100%"
+            height="360"
+            style="border:0; display:block;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="SNSRNS Degree College – Google Maps"
+            aria-label="Google Map showing college location"
+          ></iframe>
+        </div>
+        <p class="text-xs text-gray-400 mt-2 text-center">
+          <a href="https://maps.app.goo.gl/7ewe6bKmUBxMNHrd9" target="_blank" rel="noopener noreferrer" class="hover:text-forest transition-colors">
+            <i class="fa-solid fa-map-location-dot mr-1"></i>Open full map in Google Maps
+          </a>
+        </p>
+      </div>
+
+      <!-- Right: Enquiry CTA panel -->
+      <div class="fade-up" style="transition-delay:.15s">
+        <div class="bg-white rounded-2xl shadow-sm border border-forest/10 p-6 md:p-8 text-center">
+          <div class="w-16 h-16 bg-gradient-to-br from-forest to-forest-light rounded-2xl flex items-center justify-content:center mx-auto mb-4" style="display:flex; align-items:center; justify-content:center;">
+            <i class="fa-solid fa-paper-plane text-white text-2xl"></i>
+          </div>
+          <h3 class="font-display font-semibold text-forest text-xl mb-2">Have a Question?</h3>
+          <p class="text-gray-500 text-sm mb-6 leading-relaxed">
+            Click below to open our quick online enquiry form. Our admissions team will get back to you promptly.
+          </p>
+          <button onclick="openEnquiry()" class="hero-cta-primary w-full justify-center mb-6" style="font-size:1rem;">
+            <i class="fa-solid fa-paper-plane"></i> Open Enquiry Form
+          </button>
+
+          <div class="border-t border-gray-100 pt-5 flex flex-col gap-3">
+            <p class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-1">Or reach us directly</p>
+            <!-- Helpline click-to-call -->
+            <a href="tel:9293830195" class="flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl border border-forest/20 text-forest text-sm font-semibold hover:bg-forest hover:text-white transition-all">
+              <i class="fa-solid fa-phone text-xs"></i> Helpline: 9293830195
+            </a>
+            <!-- Alternate click-to-call -->
+            <a href="tel:7549353710" class="flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl border border-saffron/30 text-saffron text-sm font-semibold hover:bg-saffron hover:text-white transition-all">
+              <i class="fa-solid fa-phone text-xs"></i> Alternate: 7549353710
+            </a>
+            <!-- WhatsApp deep link with pre-filled message -->
+            <a href="https://wa.me/917549935371?text=Hey%20I%20want%20information%20about%20college"
+               target="_blank" rel="noopener noreferrer"
+               class="flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl border border-green-200 text-green-700 text-sm font-semibold hover:bg-green-600 hover:text-white transition-all">
+              <i class="fa-brands fa-whatsapp text-base"></i> WhatsApp: 75499353710
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+<footer style="background:#0d3d22;" class="text-white" role="contentinfo">
+  <div class="max-w-7xl mx-auto px-4 py-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+
+    <!-- Brand -->
+    <div>
+      <div class="flex items-center gap-3 mb-4">
+        <div class="w-11 h-11 rounded-full bg-white flex items-center justify-center flex-shrink-0">
+          <i class="fa-solid fa-graduation-cap text-forest text-xl"></i>
+        </div>
+        <div>
+          <div class="font-display font-bold text-white text-sm leading-tight">SNSRNS Degree College</div>
+          <div class="text-white/50 text-xs">Est. 2022</div>
+        </div>
+      </div>
+      <p class="text-white/60 text-xs leading-relaxed mb-4">Empowering students of East Champaran with quality, affordable and inclusive higher education.</p>
+      <div class="inline-flex items-center gap-2 text-xs bg-saffron/20 border border-saffron/30 text-saffron px-3 py-1.5 rounded-full">
+        <i class="fa-solid fa-shield-check text-xs"></i> Permanently Affiliated by Bihar Govt.
+      </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div>
+      <h4 class="font-semibold text-white text-sm mb-4 uppercase tracking-wider">Quick Links</h4>
+      <a href="#about"      class="footer-link">About Us</a>
+      <a href="#courses"    class="footer-link">Courses</a>
+      <a href="#facilities" class="footer-link">Facilities</a>
+      <a href="#gallery"    class="footer-link">Gallery</a>
+      <a href="#admin"      class="footer-link">Leadership</a>
+      <a href="#governing"  class="footer-link">Governing Body</a>
+      <a href="#services"   class="footer-link">Student Services</a>
+      <a href="#contact"    class="footer-link">Contact &amp; Admissions</a>
+    </div>
+
+    <!-- Programmes -->
+    <div>
+      <h4 class="font-semibold text-white text-sm mb-4 uppercase tracking-wider">Programmes</h4>
+      <a href="#courses" class="footer-link">BA – 12 Subjects</a>
+      <a href="#courses" class="footer-link">BSc – 5 Subjects</a>
+      <a href="#courses" class="footer-link">BCom – 4 Subjects</a>
+      <div class="mt-4">
+        <h5 class="text-white/50 text-xs uppercase tracking-wider mb-2">Affiliation</h5>
+        <p class="text-white/60 text-xs leading-relaxed">B.R.A. Bihar University (BRABU), Muzaffarpur<br/>No. 14/ए0एफ0-21/2023-1054<br/>Dated: 28 February 2025</p>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div>
+      <h4 class="font-semibold text-white text-sm mb-4 uppercase tracking-wider">Contact</h4>
+      <div class="flex flex-col gap-2.5">
+        <div class="flex items-start gap-2.5 text-white/70 text-xs">
+          <i class="fa-solid fa-location-dot text-saffron mt-0.5 flex-shrink-0"></i>
+          <span>Village Dermahan (Darmaha), Post Kesariya, Block Kalyanpur, Dist. East Champaran, Bihar – 845432</span>
+        </div>
+        <a href="tel:9293830195" class="flex items-center gap-2.5 text-white/70 text-xs hover:text-saffron transition-colors">
+          <i class="fa-solid fa-phone text-saffron flex-shrink-0"></i><span>Helpline: 9293830195</span>
+        </a>
+        <a href="tel:7549353710" class="flex items-center gap-2.5 text-white/70 text-xs hover:text-saffron transition-colors">
+          <i class="fa-solid fa-phone text-saffron flex-shrink-0"></i><span>Alternate: 7549353710</span>
+        </a>
+        <a href="https://wa.me/917549935371?text=Hey%20I%20want%20information%20about%20college"
+           target="_blank" rel="noopener noreferrer"
+           class="flex items-center gap-2.5 text-white/70 text-xs hover:text-green-400 transition-colors">
+          <i class="fa-brands fa-whatsapp text-green-400 flex-shrink-0"></i><span>WhatsApp: 75499353710</span>
+        </a>
+        <a href="mailto:snsrnsdegreecollege@gmail.com" class="flex items-center gap-2.5 text-white/70 text-xs hover:text-saffron transition-colors break-all">
+          <i class="fa-solid fa-envelope text-saffron flex-shrink-0"></i><span>snsrnsdegreecollege@gmail.com</span>
+        </a>
+        <a href="https://maps.app.goo.gl/7ewe6bKmUBxMNHrd9" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2.5 text-white/70 text-xs hover:text-saffron transition-colors">
+          <i class="fa-solid fa-map-location-dot text-saffron flex-shrink-0"></i><span>Open in Google Maps</span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-white/50 text-xs">
+      <span>&copy; <span id="footer-year"></span> SNSRNS Degree College. All rights reserved.</span>
+      <span class="text-center">Permanently affiliated to <strong class="text-white/70">B.R.A. Bihar University, Muzaffarpur</strong></span>
+    </div>
+  </div>
+</footer>
+
+
+<!-- =========================================================
+     JAVASCRIPT
+========================================================= -->
+<script>
+  /* ---- ENQUIRY POPUP ---- */
+  function openEnquiry() {
+    document.getElementById('enquiry-popup').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeEnquiry() {
+    document.getElementById('enquiry-popup').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  // Close on overlay click
+  document.getElementById('enquiry-popup').addEventListener('click', function(e) {
+    if (e.target === this) closeEnquiry();
+  });
+  // Close on Escape key
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeEnquiry(); });
+
+  /* ---- NAVBAR ---- */
+  const navbar     = document.getElementById('navbar');
+  const hamburger  = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const hamIcon    = document.getElementById('ham-icon');
+
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 60);
+  }, { passive: true });
+
+  hamburger.addEventListener('click', () => {
+    const open = !mobileMenu.classList.contains('hidden');
+    mobileMenu.classList.toggle('hidden', open);
+    hamIcon.className = open ? 'fa-solid fa-bars' : 'fa-solid fa-xmark';
+    hamburger.setAttribute('aria-expanded', String(!open));
+  });
+
+  // Close mobile menu on link/button click
+  mobileMenu.querySelectorAll('a, button').forEach(el =>
+    el.addEventListener('click', () => {
+      mobileMenu.classList.add('hidden');
+      hamIcon.className = 'fa-solid fa-bars';
+      hamburger.setAttribute('aria-expanded', 'false');
+    })
+  );
+
+  /* ---- GALLERY SLIDESHOW ---- */
+  let currentSlide = 0, slideshowTimer;
+  const slides = document.querySelectorAll('.slide');
+  const dots   = document.querySelectorAll('.slide-dot');
+
+  function showSlide(n) {
+    slides.forEach(s => s.classList.remove('active'));
+    dots.forEach(d => d.classList.remove('active'));
+    currentSlide = (n + slides.length) % slides.length;
+    slides[currentSlide].classList.add('active');
+    dots[currentSlide].classList.add('active');
+  }
+  function changeSlide(dir) { clearInterval(slideshowTimer); showSlide(currentSlide + dir); startAutoSlide(); }
+  function goToSlide(n)     { clearInterval(slideshowTimer); showSlide(n); startAutoSlide(); }
+  function startAutoSlide() { slideshowTimer = setInterval(() => showSlide(currentSlide + 1), 4500); }
+  startAutoSlide();
+
+  /* ---- FADE-UP SCROLL ANIMATIONS ---- */
+  const fadeObs = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); fadeObs.unobserve(e.target); } });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('.fade-up').forEach(el => fadeObs.observe(el));
+
+  /* ---- FOOTER YEAR ---- */
+  document.getElementById('footer-year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
