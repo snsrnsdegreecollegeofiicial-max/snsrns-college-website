@@ -175,7 +175,7 @@
     /* ===== MISC ===== */
     .badge-affiliation { display:inline-flex; align-items:center; gap:.5rem; background:linear-gradient(135deg,#1A6B3C,#2D8A52); color:#fff; padding:.5rem 1.25rem; border-radius:999px; font-size:.82rem; font-weight:600; letter-spacing:.04em; }
     .section-bg-alt { background:#F0F8F4; }
-    .fade-up { opacity:0; transform:translateY(32px); transition:opacity .6s ease,transform .6s ease; }
+    .fade-up { opacity:1; transform:translateY(0); transition:opacity .6s ease,transform .6s ease; } .js-loaded .fade-up { opacity:0; transform:translateY(32px); } .js-loaded .fade-up.visible { opacity:1; transform:translateY(0); }
     .fade-up.visible { opacity:1; transform:translateY(0); }
   </style>
 </head>
@@ -1054,4 +1054,23 @@
   }
   function changeSlide(dir) { clearInterval(slideshowTimer); showSlide(currentSlide + dir); startAutoSlide(); }
   function goToSlide(n)     { clearInterval(slideshowTimer); showSlide(n); startAutoSlide(); }
-  function startAutoSlide() { slideshowTimer = s
+  function startAutoSlide() { slideshowTimer = setInterval(() => showSlide(currentSlide + 1), 4000); }
+  startAutoSlide();
+
+  /* ---- FADE-UP SCROLL ANIMATION ---- */
+  document.documentElement.classList.add('js-loaded');
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+  } else {
+    document.querySelectorAll('.fade-up').forEach(el => el.classList.add('visible'));
+  }
+
+  /* ---- FOOTER YEAR ---- */
+  document.getElementById('footer-year').textContent = new Date().getFullYear();
+
+</script>
+</body>
+</html>
