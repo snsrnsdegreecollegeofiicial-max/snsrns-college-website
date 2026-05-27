@@ -172,6 +172,7 @@
     .notice-bar { background:#FF6B1A; color:#fff; overflow:hidden; white-space:nowrap; padding:.55rem 0; }
     .ticker-wrap { display:flex; gap:3rem; animation:ticker 35s linear infinite; }
     @keyframes ticker { from{ transform:translateX(100vw); } to{ transform:translateX(-250%); } }
+    @keyframes blink-badge { 0%,100%{ opacity:1; } 50%{ opacity:.55; } }
 
     /* ===== MISC ===== */
     .badge-affiliation { display:inline-flex; align-items:center; gap:.5rem; background:linear-gradient(135deg,#1A6B3C,#2D8A52); color:#fff; padding:.5rem 1.25rem; border-radius:999px; font-size:.82rem; font-weight:600; letter-spacing:.04em; }
@@ -276,6 +277,29 @@
   </div>
 </nav>
 
+<!-- =========================================================
+     RESULT ANNOUNCEMENT BANNER
+========================================================= -->
+<div style="background:linear-gradient(135deg,#0d3d22,#1A6B3C);border-bottom:3px solid #FF6B1A;padding:.75rem 1rem;text-align:center;position:sticky;top:0;z-index:49;" role="alert" aria-label="Result Announcement">
+  <div style="display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:.6rem .9rem;max-width:1280px;margin:0 auto;">
+    <span style="display:inline-flex;align-items:center;gap:.4rem;background:#FF6B1A;color:#fff;font-size:.68rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:.28rem .75rem;border-radius:999px;animation:blink-badge 1.4s ease-in-out infinite;flex-shrink:0;">
+      <i class="fa-solid fa-bell"></i>&nbsp;NEW RESULT
+    </span>
+    <span style="color:rgba(255,255,255,.92);font-size:.9rem;font-weight:500;font-family:'Noto Sans',sans-serif;">
+      UG 1st Semester (2025&ndash;29) Result Declared &nbsp;&mdash;&nbsp;
+      <strong style="color:#fff;">B.A.,&nbsp;B.Sc.,&nbsp;B.Com</strong>
+    </span>
+    <a href="https://result.braburesults.com/result-view"
+       target="_blank"
+       rel="noopener noreferrer"
+       style="display:inline-flex;align-items:center;gap:.45rem;background:#FF6B1A;color:#fff;font-weight:700;font-size:.82rem;padding:.38rem 1.1rem;border-radius:7px;text-decoration:none;font-family:'Noto Sans',sans-serif;flex-shrink:0;"
+       onmouseover="this.style.background='#E55A00'"
+       onmouseout="this.style.background='#FF6B1A'">
+      View Result &nbsp;<i class="fa-solid fa-arrow-up-right-from-square" style="font-size:.62rem;"></i>
+    </a>
+  </div>
+</div>
+
 
 <!-- =========================================================
      HERO
@@ -335,6 +359,8 @@
 ========================================================= -->
 <div class="notice-bar" role="marquee" aria-label="College notices">
   <div class="ticker-wrap text-sm font-semibold">
+    <span><i class="fa-solid fa-trophy mr-2"></i>&#127881; UG 1st Semester (2025-29) Result Declared &mdash; B.A., B.Sc., B.Com &nbsp;&mdash;&nbsp; <a href="https://result.braburesults.com/result-view" target="_blank" rel="noopener noreferrer" style="color:#fff;font-weight:800;text-decoration:underline;">Click here to view result</a></span>
+    <span>|</span>
     <span><i class="fa-solid fa-bell mr-2"></i>Admissions Open for 2025–26 Session</span>
     <span>|</span>
     <span>Permanently Affiliated to B.R.A. Bihar University, Muzaffarpur</span>
