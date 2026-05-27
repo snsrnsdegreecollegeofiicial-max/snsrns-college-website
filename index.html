@@ -186,9 +186,9 @@
 <!-- =========================================================
      FLOATING "ENQUIRE NOW" BUTTON
 ========================================================= -->
-<a href="https://result.braburesults.com/result-view" target="_blank" rel="noopener noreferrer" class="float-btn" aria-label="View Result">
+<a href="https://result.braburesults.com/result-view" target="_blank" rel="noopener noreferrer" class="float-btn" aria-label="View Latest Result">
   <i class="fa-solid fa-trophy"></i>
-  <span>View Result</span>
+  <span>View Latest Result</span>
 </a>
 
 <!-- =========================================================
@@ -1042,6 +1042,11 @@
      JAVASCRIPT
 ========================================================= -->
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+  // Prevent browser from restoring scroll position on refresh
+  if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'manual';
+  }
+window.scrollTo(0, 0);
   /* ---- ENQUIRY POPUP ---- */
   function openEnquiry() {
     document.getElementById('enquiry-popup').classList.add('open');
